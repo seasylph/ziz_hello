@@ -1,9 +1,75 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.985dde28-0b0c-4bf6-ae40-248fe03ab0cf",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "0162542bea2e48a0d1d0a4b09c7a8fb8"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "61875b7c2f922badd8141a9e38435e04"
+          },
+          "en-AU": {
+            "eTag": "50dcf3a689cd0bcbd57a73887a5b0545"
+          },
+          "en-GB": {
+            "eTag": "aac2dfd6137c39801f035a0fb2402ecd"
+          },
+          "en-CA": {
+            "eTag": "dc8ffeebce2a20a1844d03dc431e1cb4"
+          },
+          "en-US": {
+            "eTag": "2b55bd6765e6a3e80a8397f943bd9272"
+          },
+          "es-US": {
+            "eTag": "e4404a585186cb2080d49eb30d3fe85f"
+          },
+          "en-IN": {
+            "eTag": "f59ace4ada0a8ed453778fc313fa878d"
+          },
+          "es-MX": {
+            "eTag": "6daf327c3876063b76498e2daea56a07"
+          },
+          "fr-FR": {
+            "eTag": "f2751656980b08866b0e6c66b5873abc"
+          },
+          "it-IT": {
+            "eTag": "5c6801e9e5293b3a7b958be351e09188"
+          },
+          "pt-BR": {
+            "eTag": "ce57c17aa33e7142f125ad02f24dd858"
+          },
+          "es-ES": {
+            "eTag": "79941e35eeefb4bd7918554f81b5a8ac"
+          },
+          "hi-IN": {
+            "eTag": "191eda502c78446fd9655b746b95e008"
+          },
+          "fr-CA": {
+            "eTag": "a3af25b2a0eacb970bb8511ed9c59ee0"
+          },
+          "ja-JP": {
+            "eTag": "29431736c7f30d11f11a2ff818ccadcc"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:751376520755:function:ask-custom-ziz_hello-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-ziz_hello-default",
+            "handler": "index.handler",
+            "revisionId": "ddc2bbfb-aa48-45ca-8acb-c2589fb8c4f2",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
     }
   }
 }
